@@ -22,8 +22,10 @@ ${normalize}
 
 const Layout = ({ children }) => { 
     const body = useSelector(state => state.body)
+    const input = useSelector(state => state.input)
     const defaultTheme = {
-        body: body
+        body: body,
+        input: input
     }
     return(
         <ThemeProvider theme={defaultTheme}>

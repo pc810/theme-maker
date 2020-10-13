@@ -1,0 +1,2 @@
+export const INPUT_BACKGROUND = 'INPUT_BACKGROUND'
+export const INPUT_COLOR = 'INPUT_COLOR'
