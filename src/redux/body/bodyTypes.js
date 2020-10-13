@@ -1,0 +1,2 @@
+export const BODY_BACKGROUND = 'BODY_BACKGROUND'
+export const BODY_COLOR = 'BODY_COLOR'

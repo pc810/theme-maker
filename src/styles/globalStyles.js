@@ -29,8 +29,15 @@ export const Container =  styled.div`
 export const Flex = styled.div`
     position: relative;
     display:flex;
-    align-items: center;
+    /* align-items: center; */
 
+    ${props=>
+        props.column &&
+        css`
+            flex-direction: column;
+        `
+    }
+    
     ${props=>
         props.spaceBetween &&
         css`
@@ -54,4 +61,35 @@ export const Flex = styled.div`
         css`
             height: 0;
         `}
+`
+
+export const Body = styled.div`
+    background: ${props=>props.theme.body.background};
+    color: ${props=>props.theme.body.color};    
+`
+
+export const HtmlTagContainer = styled.div`
+    background: ${props=>props.theme.body.background};
+    color: ${props=>props.theme.body.color};
+    width: 20%;
+    height: 80vh;
+    border: 1px solid black;
+    cursor: pointer;
+`
+
+
+export const HtmlTagPropertiesContainer = styled.div`
+    background: ${props=>props.theme.body.background};
+    color: ${props=>props.theme.body.color};
+    width: 100%;
+    height: 25vh;
+    border: 1px solid black;
+`
+
+export const HtmlTagControlContainer = styled.div`
+    background: ${props=>props.theme.body.background};
+    color: ${props=>props.theme.body.color};
+    width: 100%;
+    height: 55vh;
+    border: 1px solid black;
 `
