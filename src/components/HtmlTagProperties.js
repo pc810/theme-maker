@@ -1,10 +1,11 @@
 import React from 'react'
 import {HtmlTagPropertiesContainer} from '../styles/globalStyles'
+import Body from './tags/renderComponent/body'
 
-function HtmlTagProperties({tag}) {
+function HtmlTagProperties({tag}) {    
     return (
         <HtmlTagPropertiesContainer>
-            {tag}
+            {tag==='body' && <Body/>}
         </HtmlTagPropertiesContainer>        
     )
 }

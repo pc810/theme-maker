@@ -15,10 +15,11 @@ import HtmlTags from './components/HtmlTags'
 import HtmlTagProperties from './components/HtmlTagProperties'
 import HtmlTagControl from './components/HtmlTagControl'
 
+
 function App() {
-  const [selectedTag, setselectedTag] = useState('body')
+  const [selectedTag, setselectedTag] = useState('body')  
   const onSelectedItemChange = (item)=>{
-    setselectedTag(item);
+    setselectedTag(item);    
   }
 
   return (

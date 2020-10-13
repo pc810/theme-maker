@@ -72,7 +72,7 @@ export const HtmlTagContainer = styled.div`
     background: ${props=>props.theme.body.background};
     color: ${props=>props.theme.body.color};
     width: 20%;
-    height: 80vh;
+    height: 87vh;
     border: 1px solid black;
     cursor: pointer;
 `
@@ -83,6 +83,7 @@ export const HtmlTagPropertiesContainer = styled.div`
     color: ${props=>props.theme.body.color};
     width: 100%;
     height: 25vh;
+    padding: 3em 0 0 3em;
     border: 1px solid black;
 `
 
@@ -90,6 +91,7 @@ export const HtmlTagControlContainer = styled.div`
     background: ${props=>props.theme.body.background};
     color: ${props=>props.theme.body.color};
     width: 100%;
-    height: 55vh;
+    height: 45vh;
+    padding: 5em 0 0 3em;
     border: 1px solid black;
 `
