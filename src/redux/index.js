@@ -1,1 +1,1 @@
-export {bodyBackground} from './body/bodyAction'
+export {bodyBackground,bodyColor} from './body/bodyAction'

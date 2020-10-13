@@ -11,7 +11,7 @@ import withBasicProperties from './withBasicProperties'
 import Handler from './Handler'
 
 
-const BasicBodyController = (props)=>{     
+const BasicInputController = (props)=>{     
   return (    
         <PropertyContainer>                     
                 {
@@ -20,7 +20,7 @@ const BasicBodyController = (props)=>{
                             <div key={key}>                          
                                 <PropertyName>{key}</PropertyName>
                                 <PropertyValue>
-                                    <Handler tag="body" type={key} value={value}/>
+                                    <Handler tag="input" type={key} value={value}/>
                                 </PropertyValue>
                             </div>
                         )
@@ -30,5 +30,5 @@ const BasicBodyController = (props)=>{
         </PropertyContainer>          
   );
 }
-const BodyController = withBasicProperties('body')(BasicBodyController)
-export default BodyController;
+const InputController = withBasicProperties('input')(BasicInputController)
+export default InputController;

@@ -26,7 +26,7 @@ function App() {
     <Provider store={store}>
       <Layout>
         <Container>
-          <h1>Theme Maker</h1>
+          <h1 style={{margin:0}}>Theme Maker</h1>
         </Container>
         <Flex>
           <HtmlTags onSelectedItemChange={onSelectedItemChange} selectedTag={selectedTag}/>

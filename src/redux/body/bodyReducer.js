@@ -3,8 +3,8 @@ import {BODY_COLOR} from './bodyTypes'
 
 
 const initialState = {
-    background: '#fff',
-    color: '#000'
+    background: '#ffffff',
+    color: '#000000'
 }
 
 const bodyReducer = (state = initialState, action)=>{

@@ -1,4 +1,4 @@
-import {BODY_BACKGROUND} from './bodyTypes'
+import {BODY_BACKGROUND,BODY_COLOR} from './bodyTypes'
 export const bodyBackground = (payload)=>{
     return{
         type:BODY_BACKGROUND,
